@@ -37,8 +37,8 @@ $br->cache_expire = 300;
  * By default located at "De Bilt"
  * Will return array of times and rain in mm per hour.
  * 
- * @param integer $lat
- * @param integer $lon
+ * @param float $lat
+ * @param float $lon
  * @param int $expire Override expiretime for cache
  * 
  * @return mixed (False on failure, Array on success)

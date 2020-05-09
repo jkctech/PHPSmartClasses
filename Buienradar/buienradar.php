@@ -117,13 +117,13 @@
 		 * By default located at "De Bilt"
 		 * Will return array of times and rain in mm per hour.
 		 * 
-		 * @param integer $lat
-		 * @param integer $lon
+		 * @param float $lat
+		 * @param float $lon
 		 * @param int $expire Override expiretime for cache
 		 * 
 		 * @return mixed (False on failure, Array on success)
 		 */
-		public function Raintext($lat = 52.100, $lon = 5.171, int $expire = null)
+		public function Raintext(float $lat = 52.100, float $lon = 5.171, int $expire = null)
 		{
 			$data = "";
 			$lat = round($lat, 3);
